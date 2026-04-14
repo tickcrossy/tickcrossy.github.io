@@ -1256,7 +1256,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #aaff01;
+    background: #ffb06e;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2760,4 +2760,13 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
+}
+/* 修改主体内容的圆角和阴影 */
+.post-block,
+.sidebar-inner,
+.comments {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.9); /* 略带透明度 */
+  border-radius: 15px; /* 圆角 */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1); /* 阴影 */
 }
