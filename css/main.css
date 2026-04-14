@@ -942,13 +942,13 @@ pre code {
   border-bottom-color: transparent;
   border-left-color: #ddd;
   border-right-color: #ddd;
-  border-top-color: #fc6423;
+  border-top-color: #228b22;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab.active,
   .tabs-comment ul.nav-tabs li.tab.active {
     border-bottom-color: #ddd;
-    border-left-color: #fc6423;
+    border-left-color: #228b22;
     border-right-color: #ddd;
     border-top-color: #ddd;
   }
@@ -1256,7 +1256,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ffb06e;
+    background: #7ec650;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1545,15 +1545,15 @@ pre code {
 }
 .sidebar .sidebar-button button {
   background: transparent;
-  color: #fc6423;
+  color: #228b22;
   cursor: pointer;
   line-height: 2;
   padding: 0 15px;
-  border: 1px solid #fc6423;
+  border: 1px solid #228b22;
   border-radius: 4px;
 }
 .sidebar .sidebar-button button:hover {
-  background: #fc6423;
+  background: #228b22;
   color: #fff;
 }
 .sidebar .sidebar-button button i[class^='fa'] {
@@ -2621,14 +2621,14 @@ header.header {
   }
   .sidebar .sidebar-button button {
     border: 0;
-    color: #fc6423;
+    color: #228b22;
     display: block;
     width: 100%;
   }
   .sidebar .sidebar-button button:hover {
     background: none;
     border: 0;
-    color: #e34603;
+    color: #1b6f1b;
   }
   .links-of-author {
     display: flex;
@@ -2760,13 +2760,4 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
-}
-/* 修改主体内容的圆角和阴影 */
-.post-block,
-.sidebar-inner,
-.comments {
-  margin-top: 20px;
-  background: rgba(255,255,255,0.9); /* 略带透明度 */
-  border-radius: 15px; /* 圆角 */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1); /* 阴影 */
 }
