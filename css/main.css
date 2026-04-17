@@ -942,13 +942,13 @@ pre code {
   border-bottom-color: transparent;
   border-left-color: #ddd;
   border-right-color: #ddd;
-  border-top-color: #228b22;
+  border-top-color: #fc6423;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab.active,
   .tabs-comment ul.nav-tabs li.tab.active {
     border-bottom-color: #ddd;
-    border-left-color: #228b22;
+    border-left-color: #fc6423;
     border-right-color: #ddd;
     border-top-color: #ddd;
   }
@@ -1256,7 +1256,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #7ec650;
+    background: #ff96c8;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1545,15 +1545,15 @@ pre code {
 }
 .sidebar .sidebar-button button {
   background: transparent;
-  color: #228b22;
+  color: #fc6423;
   cursor: pointer;
   line-height: 2;
   padding: 0 15px;
-  border: 1px solid #228b22;
+  border: 1px solid #fc6423;
   border-radius: 4px;
 }
 .sidebar .sidebar-button button:hover {
-  background: #228b22;
+  background: #fc6423;
   color: #fff;
 }
 .sidebar .sidebar-button button i[class^='fa'] {
@@ -2621,14 +2621,14 @@ header.header {
   }
   .sidebar .sidebar-button button {
     border: 0;
-    color: #228b22;
+    color: #fc6423;
     display: block;
     width: 100%;
   }
   .sidebar .sidebar-button button:hover {
     background: none;
     border: 0;
-    color: #1b6f1b;
+    color: #e34603;
   }
   .links-of-author {
     display: flex;
@@ -2760,4 +2760,20 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
+}
+/* 示例代码 */
+.post,
+.sidebar {
+  border-radius: 12px; /* 增加圆角 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 柔和的阴影 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.post:hover {
+  transform: translateY(-5px); /* 鼠标悬停上浮效果 */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+a:hover,
+.btn-read-more {
+  color: #ff8fa3; /* 柔和的粉色 */
+  border-color: #ff8fa3;
 }
